@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731592906990,
-  "repoUrl": "https://github.com/textlint/textlint",
+  "lastUpdate": 1731962837813,
+  "repoUrl": "https://github.com/massongit/textlint",
   "entries": {
     "Benchmark": [
       {
@@ -43680,6 +43680,48 @@ window.BENCHMARK_DATA = {
             "value": 0.6963670430600001,
             "unit": "seconds",
             "range": "± 0.014765079000000014"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ba573c7bb620e1883b533090bb77e086a0190f1e",
+          "message": "chore(deps-dev): bump axios from 1.6.7 to 1.7.7\n\nBumps [axios](https://github.com/axios/axios) from 1.6.7 to 1.7.7.\n- [Release notes](https://github.com/axios/axios/releases)\n- [Changelog](https://github.com/axios/axios/blob/v1.x/CHANGELOG.md)\n- [Commits](https://github.com/axios/axios/compare/v1.6.7...v1.7.7)\n\n---\nupdated-dependencies:\n- dependency-name: axios\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2024-11-18T20:40:20Z",
+          "tree_id": "d1418d3405e9e9b5971ce64cf73cf28f026078ca",
+          "url": "https://github.com/massongit/textlint/commit/ba573c7bb620e1883b533090bb77e086a0190f1e"
+        },
+        "date": 1731962834962,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 3.0961218071000003,
+            "unit": "seconds",
+            "range": "± 0.04629431400000028"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 6.577380508499999,
+            "unit": "seconds",
+            "range": "± 0.1801904710000004"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.7178318725,
+            "unit": "seconds",
+            "range": "± 0.03308049699999993"
           }
         ]
       }
