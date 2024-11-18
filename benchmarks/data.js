@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731962837813,
+  "lastUpdate": 1731962855077,
   "repoUrl": "https://github.com/massongit/textlint",
   "entries": {
     "Benchmark": [
@@ -43722,6 +43722,48 @@ window.BENCHMARK_DATA = {
             "value": 0.7178318725,
             "unit": "seconds",
             "range": "± 0.03308049699999993"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8aa2eda16bab75ec1b03954160016a32601bec70",
+          "message": "chore(deps): bump tar and lerna\n\nBumps [tar](https://github.com/isaacs/node-tar) to 6.2.1 and updates ancestor dependency [lerna](https://github.com/lerna/lerna/tree/HEAD/packages/lerna). These dependencies need to be updated together.\n\n\nUpdates `tar` from 6.1.11 to 6.2.1\n- [Release notes](https://github.com/isaacs/node-tar/releases)\n- [Changelog](https://github.com/isaacs/node-tar/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/isaacs/node-tar/compare/v6.1.11...v6.2.1)\n\nUpdates `lerna` from 7.4.2 to 8.1.9\n- [Release notes](https://github.com/lerna/lerna/releases)\n- [Changelog](https://github.com/lerna/lerna/blob/main/packages/lerna/CHANGELOG.md)\n- [Commits](https://github.com/lerna/lerna/commits/v8.1.9/packages/lerna)\n\n---\nupdated-dependencies:\n- dependency-name: tar\n  dependency-type: indirect\n- dependency-name: lerna\n  dependency-type: direct:development\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2024-11-18T20:16:13Z",
+          "tree_id": "0742d4e3f4a61ca1dfaa213f6bb86fd31372713f",
+          "url": "https://github.com/massongit/textlint/commit/8aa2eda16bab75ec1b03954160016a32601bec70"
+        },
+        "date": 1731962852554,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 3.27839603018,
+            "unit": "seconds",
+            "range": "± 0.03993906899999988"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 6.9792140935800004,
+            "unit": "seconds",
+            "range": "± 0.14384691199999988"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.7554271079799999,
+            "unit": "seconds",
+            "range": "± 0.0286859490000001"
           }
         ]
       }
