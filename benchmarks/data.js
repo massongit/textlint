@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733066455837,
+  "lastUpdate": 1733066570001,
   "repoUrl": "https://github.com/massongit/textlint",
   "entries": {
     "Benchmark": [
@@ -43890,6 +43890,48 @@ window.BENCHMARK_DATA = {
             "value": 0.7129850750800001,
             "unit": "seconds",
             "range": "± 0.007174975999999944"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fbcaafc31bf17fcd1074ac649c3e62cb92895b90",
+          "message": "chore(deps): bump cross-spawn from 7.0.5 to 7.0.6\n\nBumps [cross-spawn](https://github.com/moxystudio/node-cross-spawn) from 7.0.5 to 7.0.6.\n- [Changelog](https://github.com/moxystudio/node-cross-spawn/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/moxystudio/node-cross-spawn/compare/v7.0.5...v7.0.6)\n\n---\nupdated-dependencies:\n- dependency-name: cross-spawn\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2024-12-01T15:20:08Z",
+          "tree_id": "951fa5b2bdebbd4f37e65a71d71a49cc2831919c",
+          "url": "https://github.com/massongit/textlint/commit/fbcaafc31bf17fcd1074ac649c3e62cb92895b90"
+        },
+        "date": 1733066566726,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 3.12349528624,
+            "unit": "seconds",
+            "range": "± 0.03628096800000025"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 6.608669973440001,
+            "unit": "seconds",
+            "range": "± 0.15221381599999972"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.7279710520400001,
+            "unit": "seconds",
+            "range": "± 0.016360038999999937"
           }
         ]
       }
