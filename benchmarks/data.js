@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734133956561,
+  "lastUpdate": 1753174265932,
   "repoUrl": "https://github.com/massongit/textlint",
   "entries": {
     "Benchmark": [
@@ -44016,6 +44016,48 @@ window.BENCHMARK_DATA = {
             "value": 0.70865187778,
             "unit": "seconds",
             "range": "± 0.01634669599999994"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "288f809b254daa99961eb4257db8c1cba2954977",
+          "message": "chore(deps): bump form-data from 4.0.1 to 4.0.4\n\nBumps [form-data](https://github.com/form-data/form-data) from 4.0.1 to 4.0.4.\n- [Release notes](https://github.com/form-data/form-data/releases)\n- [Changelog](https://github.com/form-data/form-data/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/form-data/form-data/compare/v4.0.1...v4.0.4)\n\n---\nupdated-dependencies:\n- dependency-name: form-data\n  dependency-version: 4.0.4\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2025-07-22T08:48:04Z",
+          "tree_id": "c1ac9b832c3ebdceda16817d394b9dc15333c150",
+          "url": "https://github.com/massongit/textlint/commit/288f809b254daa99961eb4257db8c1cba2954977"
+        },
+        "date": 1753174263582,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 3.11794364714,
+            "unit": "seconds",
+            "range": "± 0.01944756400000003"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 6.6569581625400005,
+            "unit": "seconds",
+            "range": "± 0.11959809000000021"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.72864737234,
+            "unit": "seconds",
+            "range": "± 0.008533251999999991"
           }
         ]
       }
