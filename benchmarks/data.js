@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753174265932,
+  "lastUpdate": 1763416384700,
   "repoUrl": "https://github.com/massongit/textlint",
   "entries": {
     "Benchmark": [
@@ -44058,6 +44058,48 @@ window.BENCHMARK_DATA = {
             "value": 0.72864737234,
             "unit": "seconds",
             "range": "± 0.008533251999999991"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0a62e3bc74825db649c1e337cd7f66199730e2d9",
+          "message": "chore(deps): bump js-yaml from 3.14.1 to 3.14.2\n\nBumps [js-yaml](https://github.com/nodeca/js-yaml) from 3.14.1 to 3.14.2.\n- [Changelog](https://github.com/nodeca/js-yaml/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/nodeca/js-yaml/compare/3.14.1...3.14.2)\n\n---\nupdated-dependencies:\n- dependency-name: js-yaml\n  dependency-version: 3.14.2\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2025-11-17T21:50:40Z",
+          "tree_id": "049235ea65571d4a034c560ec47c5279b4e8110b",
+          "url": "https://github.com/massongit/textlint/commit/0a62e3bc74825db649c1e337cd7f66199730e2d9"
+        },
+        "date": 1763416382893,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 3.1151586534600004,
+            "range": "± 0.08412973700000004",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 6.636609386859999,
+            "range": "± 0.12472376399999963",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.7101708372600001,
+            "range": "± 0.02655387999999992",
+            "unit": "seconds"
           }
         ]
       }
