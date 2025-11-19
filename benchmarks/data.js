@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763433969862,
+  "lastUpdate": 1763519695344,
   "repoUrl": "https://github.com/massongit/textlint",
   "entries": {
     "Benchmark": [
@@ -44141,6 +44141,48 @@ window.BENCHMARK_DATA = {
             "name": "npm run bench:jtf-style",
             "value": 0.7230561951400001,
             "range": "± 0.004272629000000028",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f8febabf492e5055813cdbfd538d87c08d4b79ad",
+          "message": "chore(deps): bump glob from 10.4.5 to 10.5.0\n\nBumps [glob](https://github.com/isaacs/node-glob) from 10.4.5 to 10.5.0.\n- [Changelog](https://github.com/isaacs/node-glob/blob/main/changelog.md)\n- [Commits](https://github.com/isaacs/node-glob/compare/v10.4.5...v10.5.0)\n\n---\nupdated-dependencies:\n- dependency-name: glob\n  dependency-version: 10.5.0\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2025-11-19T02:32:35Z",
+          "tree_id": "d77279c2ee20ea91e1a62974b12d3e69ecf3cd33",
+          "url": "https://github.com/massongit/textlint/commit/f8febabf492e5055813cdbfd538d87c08d4b79ad"
+        },
+        "date": 1763519693100,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 2.90493617314,
+            "range": "± 0.04065524999999992",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 6.999382025539999,
+            "range": "± 0.17237486400000002",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.63247045754,
+            "range": "± 0.015752967000000062",
             "unit": "seconds"
           }
         ]
