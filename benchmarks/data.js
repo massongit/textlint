@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763519695344,
+  "lastUpdate": 1768427040681,
   "repoUrl": "https://github.com/massongit/textlint",
   "entries": {
     "Benchmark": [
@@ -44183,6 +44183,48 @@ window.BENCHMARK_DATA = {
             "name": "npm run bench:jtf-style",
             "value": 0.63247045754,
             "range": "± 0.015752967000000062",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "59907a9e1d3c11358f3f26ca1f78283886c2d6b0",
+          "message": "chore(deps): bump diff from 5.2.0 to 8.0.3\n\nBumps [diff](https://github.com/kpdecker/jsdiff) from 5.2.0 to 8.0.3.\n- [Changelog](https://github.com/kpdecker/jsdiff/blob/master/release-notes.md)\n- [Commits](https://github.com/kpdecker/jsdiff/compare/v5.2.0...v8.0.3)\n\n---\nupdated-dependencies:\n- dependency-name: diff\n  dependency-version: 8.0.3\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-01-14T21:41:29Z",
+          "tree_id": "7b4c888be3a220ffe25242703b3028928b590214",
+          "url": "https://github.com/massongit/textlint/commit/59907a9e1d3c11358f3f26ca1f78283886c2d6b0"
+        },
+        "date": 1768427039037,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 3.23932093832,
+            "range": "± 0.08408111299999987",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 6.86322196792,
+            "range": "± 0.20361692900000072",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.7403870019200001,
+            "range": "± 0.020950927000000008",
             "unit": "seconds"
           }
         ]
