@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768427040681,
+  "lastUpdate": 1769050747071,
   "repoUrl": "https://github.com/massongit/textlint",
   "entries": {
     "Benchmark": [
@@ -44225,6 +44225,48 @@ window.BENCHMARK_DATA = {
             "name": "npm run bench:jtf-style",
             "value": 0.7403870019200001,
             "range": "± 0.020950927000000008",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "98e21f19a66791c1b4905f307ed509f77eee68af",
+          "message": "chore(deps): bump lodash from 4.17.21 to 4.17.23\n\nBumps [lodash](https://github.com/lodash/lodash) from 4.17.21 to 4.17.23.\n- [Release notes](https://github.com/lodash/lodash/releases)\n- [Commits](https://github.com/lodash/lodash/compare/4.17.21...4.17.23)\n\n---\nupdated-dependencies:\n- dependency-name: lodash\n  dependency-version: 4.17.23\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-01-22T02:56:38Z",
+          "tree_id": "008c88d161921f146213e33b4c4c33ff166db160",
+          "url": "https://github.com/massongit/textlint/commit/98e21f19a66791c1b4905f307ed509f77eee68af"
+        },
+        "date": 1769050744430,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 3.2640260967800003,
+            "range": "± 0.08253457999999991",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 6.76563173678,
+            "range": "± 0.20137807500000005",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.7232234283800001,
+            "range": "± 0.011817721999999975",
             "unit": "seconds"
           }
         ]
